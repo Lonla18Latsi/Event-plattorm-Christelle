@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event erstellen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--<h3> Event erstellen</h3>
+<h4> Fülle dieses Formular aus, um Dein Event anzulegen</h4>
+<button type="button" class="btn btn-primary">Speichern</button>
+<button type="submit" class="btn btn-primary">veröffentlichen</button>
+-->
+
+<div class="container">
+    <h2 class="text-center mb-3">Event erstellen</h2>
+    <p class="text-center mb-4">Füllen Sie dieses Formular aus, um Ihre Veranstaltung anzulegen oder zu veröffentlichen</p>
+
+    <form>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+
+            <div class="col-md-6">
+                <label for="category" class="form-label">Kategorie wählen</label>
+                <select class="form-select" id="category">
+                    <option selected disabled>Bitte wählen</option>
+                    <option>Musik</option>
+                    <option>Sport</option>
+                    <option>Workshop</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="date" class="form-label">Datum</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+
+            <div class="col-md-6">
+                <label for="anzahlPlaetze" class="form-label"> Anzahl der Plätze</label>
+                <input type="number" class="form-control" id="anzahlPlaetze" name="anzahlPlaetze" min="0" placeholder="0">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="location" class="form-label">Ort</label>
+                <input type="text" class="form-control" id="location">
+            </div>
+
+            <div class="col-md-6">
+                <label for="price" class="form-label">Preis</label>
+                <input type="text" class="form-control" id="price">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Beschreibung</label>
+            <textarea class="form-control" id="description" rows="5"></textarea>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-primary">speichern</button>
+            <button type="submit" class="btn btn-primary">veröffentlichen</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
