@@ -7,3 +7,7 @@ dist
 # Ignorer les fichiers IntelliJ
 .idea/
 *.iml
+# Éviter que ces fichiers reviennent
+webpack.*.js
+package.json
+
