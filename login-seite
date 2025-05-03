@@ -1,5 +1,37 @@
-<script>start("/Users/altessefomen/Desktop/Altesse Fomen/login-seite/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("registrieren seite","registrieren%20seite",1,192,"192 B",1745951019,"29.04.25, 20:23:39");</script>
-<script>addRow("index.html","index.html",0,864,"864 B",1746273387,"03.05.25, 13:56:27");</script>
-<script>addRow("style.css","style.css",0,623,"623 B",1745937347,"29.04.25, 16:35:47");</script>
+<!DOCTYPE html>
+<html lang="de">
+<head> 
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Login</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+ <div class="login-container">
+  <h2>Login</h2> 
+  <form>
+   <label for="username">Benutzername</label> 
+   <input type="text" id="username" name="username" required />
+
+   <label for="password">Passwort</label> 
+   <input type="password" id="password" name="password" required />
+
+   <button type="submit">Anmelden</button>
+
+ </form>
+
+  <p class="mt-3 text-center"> 
+    noch kein Konto?
+    <a href="registrieren seite">hier registieren</a> 
+
+  </p>
+
+  <p class="mt-3 text-center"> 
+   <a href="registrieren seite">passwort vergessen</a> 
+
+  </p> 
+
+  </p>
+ </div>
+</body>
+</html>
